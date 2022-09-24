@@ -1,0 +1,37 @@
+﻿
+@{
+    ViewBag.Title = "Reference";
+    var x = "https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css";
+    var y = "https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="@x">
+    <script src="@y"></script>
+    <link rel="stylesheet" href="@Url.Content("~/Content/StyleSheet1.css")">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container1">
+        <div id="content">
+            <div id="intro-container">
+                <div id="intro">
+                    <div id="ref-img"><img src="@Url.Content("~/Content/img/kishor.png")" alt=""></div>
+                    <div id="intro-description">
+                        <h2>Md Kishor Morol</h2>
+                        <div>Assistant Professor, CS, American International University-Bangladesh.</div>
+                        <div>Founder, Kishor Academy</div>
+                        <div>Director, KI Research Lab</div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

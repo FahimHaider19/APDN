@@ -1,0 +1,92 @@
+﻿
+@{
+    ViewBag.Title = "Education";
+    var x = "https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css";
+    var y = "https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="@x">
+    <script src="@y"></script>
+    <link rel="stylesheet" href="@Url.Content("~/Content/StyleSheet1.css")">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div id="content">
+            <div id="about-me-container">
+                <div id="about-me">
+                    <div class="label">Education</div>
+                    <p>I am currently pursuing my bachelor's degree in computer science at AIUB. I'm passionate about programming and and keen to learn new things. I have completed some fine curriculam projects. I have some experience in  C, C++, Java, C#, HTML, CSS, Javascript, JQuery. Also, I used to participate in online programming contests and has some experience in ACM.</p>
+                    <div id="about-me-boxes">
+                        <div id="education">
+                            <h3>Education</h3>
+                            <div class="table">
+                                <div class="row">
+                                    <img src="@Url.Content("~/Content/img/isc.jpg")" alt="" class="table-icon" id="isc-icon">
+                                    <div class="table-row-details">
+                                        <div class="institute-name">Ideal School And College</div>
+                                        <div>SSC - 2017</div>
+                                        <div>GPA: 5.00</div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <img src="@Url.Content("~/Content/img/dc.png")" alt="" class="table-icon" id="isc-icon">
+                                    <div class="table-row-details">
+                                        <div class="institute-name">Dhaka College</div>
+                                        <div>HSC - 2019</div>
+                                        <div>GPA: 4.83</div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <img src="@Url.Content("~/Content/img/aiub.png")" alt="" class="table-icon" id="isc-icon">
+                                    <div class="table-row-details">
+                                        <div class="institute-name">American International University, Bangladesh</div>
+                                        <div>2020 - Present</div>
+                                        <div>CGPA: 3.91</div>
+                                        <div>Semester: 9th</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="contacts">
+                            <h3>Contacts</h3>
+                            <div class="table">
+                                <div class="row">
+                                    <img src="@Url.Content("~/Content/img/email.png")" alt="" class="contact-icon">
+                                    <div class="contact-info">fhmhaider19@gmail.com</div>
+                                </div>
+                                <div class="row">
+                                    <img src="@Url.Content("~/Content/img/phone.png")" alt="" class="contact-icon">
+                                    <div class="contact-info">+880 1521 572 363</div>
+                                </div>
+                                <div class="row">
+                                    <img src="@Url.Content("~/Content/img/address.png")" alt="" class="contact-icon">
+                                    <div class="contact-info">House - 22, Road - 4, Block - G, Banasree, Rampura, Dhaka - 1219</div>
+                                </div>
+                                <div class="row">
+                                    <img src="@Url.Content("~/Content/img/facebook.png")" alt="" class="contact-icon">
+                                    <div class="contact-info"><a href="https://www.facebook.com/wolf.eye.19/">https://www.facebook.com/wolf.eye.19/</a></div>
+                                </div>
+                                <div class="row">
+                                    <img src="@Url.Content("~/Content/img/github.png")" alt="" class="contact-icon">
+                                    <div class="contact-info"><a href="https://github.com/FahimHaider19">https://github.com/FahimHaider19</a></div>
+                                </div>
+                                <div class="row">
+                                    <img src="@Url.Content("~/Content/img/codeforces.png")" alt="" class="contact-icon">
+                                    <div class="contact-info"><a href="https://codeforces.com/profile/FahimHaider">https://codeforces.com/profile/FahimHaider</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

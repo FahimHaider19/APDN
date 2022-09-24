@@ -1,0 +1,109 @@
+﻿
+@{
+    ViewBag.Title = "Projects";
+    var x = "https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css";
+    var y = "https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="@x">
+    <script src="@y"></script>
+    <link rel="stylesheet" href="@Url.Content("~/Content/StyleSheet1.css")">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container1">
+        <div id="content">
+            <div id="projects-container">
+                <div id="projects">
+                    <div class="label">Projects</div>
+                    <section class="splide" aria-label="Splide Basic HTML Example">
+                        <div class="splide__track">
+                            <ul class="splide__list">
+                                <li class="splide__slide project">
+                                    <img src="@Url.Content("~/Content/img/web.png")" alt="">
+                                    <div class="project-title">Web Project</div>
+                                    <div class="project-description">
+                                        A digital store and an e-commerce website for purchasing games. Gamers
+                                        can purchase
+                                        games and play them. Here gamers are our primary target customer. There's also Admin to maintain and
+                                        control
+                                        website activity and Publisher to sell games on this website. We have used HTML, CSS, Javascript,
+                                        JQuery, PHP
+                                        and Ajax.
+                                    </div>
+                                    <div class="github-link">
+                                        Github: <a href="https://github.com/FahimHaider19/Curriculam-Projects">https://github.com/FahimHaider19/Curriculam-Projects</a>
+                                    </div>
+                                </li>
+                                <li class="splide__slide project">
+                                    <img src="@Url.Content("~/Content/img/cg.jpg")" alt="">
+                                    <div class="project-title">OpenGL Project</div>
+                                    <div class="project-description">
+                                        A simple OpenGL project on a mountain-river scenario at different time
+                                        and season.
+                                        There are 4 scenes - Morning, Night, Dusk and Winter. Freeglut api has been used to build this
+                                        wholle project.
+                                    </div>
+                                    <div class="github-link">
+                                        Github: <a href="https://github.com/FahimHaider19/Computer-Graphics---OpenGL">https://github.com/FahimHaider19/Computer-Graphics---OpenGL</a>
+                                    </div>
+                                    <div class="github-link">
+                                        Demo: <a href="https://youtu.be/BzVufpGJ_vo">https://youtu.be/BzVufpGJ_vo</a>
+                                    </div>
+                                </li>
+                                <li class="splide__slide project">
+                                    <img src="@Url.Content("~/Content/img/csp.png")" alt="">
+                                    <div class="project-title">C# Project</div>
+                                    <div class="project-description">
+                                        A desktop application for a digital store and ecommerce site for
+                                        purchasing games.
+                                        There are three types of users - Customer, Developer, Admin. Admin handles all the store activity.
+                                        Developer
+                                        publishes games and can update game info and price. Customer buy games and play them. THis whole
+                                        project has
+                                        done using C# without using any framework.
+                                    </div>
+                                    <div class="github-link">
+                                        Github: <a href="https://github.com/FahimHaider19/Curriculam-Projects/tree/master/Semester%205/GameStore">https://github.com/FahimHaider19/Curriculam-Projects/tree/master/Semester%205/GameStore</a>
+                                    </div>
+                                </li>
+                                <li class="splide__slide project">
+                                    <img src="@Url.Content("~/Content/img/foodcourt.png")" alt="">
+                                    <div class="project-title">Java Project</div>
+                                    <div class="project-description">
+                                        A console based java program to manage foodcourt system. Here we can
+                                        manage
+                                        employees, restaurants, food items etc from console. The project is build with java
+                                    </div>
+                                    <div class="github-link">
+                                        Github: <a href="https://github.com/FahimHaider19/Curriculam-Projects/tree/master/Semester%202/Food%20Court%20Management">https://github.com/FahimHaider19/Curriculam-Projects/tree/master/Semester%202/Food%20Court%20Management</a>
+                                    </div>
+                                </li>
+                                <li class="splide__slide project">
+                                    <img src="@Url.Content("~/Content/img/market.png")" alt="">
+                                    <div class="project-title">Java Project</div>
+                                    <div class="project-description">
+                                        A console based java program to manage a market and its operations.
+                                        Here we can
+                                        manage market employees, shops, products etc from console. The project is build with java
+                                    </div>
+                                    <div class="github-link">
+                                        Github: <a href="https://github.com/FahimHaider19/Curriculam-Projects/tree/master/Semester%202/Market%20Management">https://github.com/FahimHaider19/Curriculam-Projects/tree/master/Semester%202/Market%20Management</a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="@Url.Content("~/Scripts/script.js")"></script>
+</body>
+</html>
